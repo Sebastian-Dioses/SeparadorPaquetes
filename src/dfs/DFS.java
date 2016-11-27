@@ -39,7 +39,7 @@ public class DFS {
         Iterator i = set.iterator();
         
         while(i.hasNext()) {
-            Map.Entry me = (Map.Entry)i.next();
+            Map.Entry me = (Map.Entry)i.next(); 
             String[] ciudadActual=(String[])me.getValue();
             
             System.out.println(me.getKey()+"-"+ ciudadActual.length);
